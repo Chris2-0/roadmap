@@ -52,3 +52,39 @@ button:hover{
         flex-direction: column;
     }
 }
+
+:root{
+    --primary-color: #007bff;
+    --secondary-color: #f9f9f9;
+}
+
+.skills{
+    background: var(--bg-color);
+    padding: 2rem;
+}
+
+.skills h3{
+    text-align: center;
+    margin-bottom: 1rem;
+} 
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.card{
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    border-color: var(--primary-color);
+}
