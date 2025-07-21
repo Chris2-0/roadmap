@@ -88,3 +88,9 @@ button:hover{
     transform: scale(1.05);
     border-color: var(--primary-color);
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+    transition: background-color 0.5s;
+}

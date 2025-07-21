@@ -29,3 +29,10 @@ const text = document.getElementById("demoText");
 button.addEventListener("click", function() {
     text.innerText = "You clicked the button! 🎉";
 });
+
+const toggleModeBtn = document.getElementById("toggleMode");
+const body = document.body;
+
+toggleModeBtn.addEventListener("click", function() {
+    body.classList.toggle("dark-mode");
+});
