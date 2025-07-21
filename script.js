@@ -1,6 +1,6 @@
 console.log("Welcome to Christian's website!");
 
-let visitorName = prompt("Please enter your name:");
+/*let visitorName = prompt("Please enter your name:");
 alert("Hello, " + visitorName + "!👋");
 
 let score = 0;
@@ -21,4 +21,11 @@ if (answer2.toLowerCase() === "javascript") {
     alert("Incorrect 👎. Its JavaScript");
 }
 
-alert("You scored "+ score + " out of 2! 🎉");
+alert("You scored "+ score + " out of 2! 🎉");*/
+
+const button = document.getElementById("changeTextBtn");
+const text = document.getElementById("demoText");
+
+button.addEventListener("click", function() {
+    text.innerText = "You clicked the button! 🎉";
+});
